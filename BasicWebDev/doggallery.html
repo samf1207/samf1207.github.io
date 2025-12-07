@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dog Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        img {
+            height: 200px;       /* makes all images same height */
+            margin: 10px;        /* adds spacing */
+            border-radius: 8px;  /* smooth corners (optional) */
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;     /* wraps images if window is small */
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Dog Gallery</h1>
+
+    <div class="gallery">
+        <img src="Gallery/dog1.jpg" alt="Dog 1">
+        <img src="Gallery/dog2.jpg" alt="Dog 2">
+        <img src="Gallery/dog3.jpg" alt="Dog 3">
+    </div>
+
+</body>
+</html>
